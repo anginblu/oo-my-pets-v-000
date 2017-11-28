@@ -66,7 +66,7 @@ class Owner
     new_pets[:fish] << pets[:fishes]
     new_pets[:dog(s)] << pets[:dogs]
     new_pets[:cat(s)] << pets[:cats]
-    "I have #{pets[:fishes].size" fish, #{pets[:dogs].size dog(s), and #{pets_number[2][1]} #{pets_number[2][0]}."
+    "I have #{pets[:fishes].size fish, #{pets[:dogs].size dog(s), and #{pets_number[2][1]} #{pets_number[2][0]}."
   end
 
 end
