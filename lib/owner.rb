@@ -66,10 +66,7 @@ class Owner
     new_pets[:fish] << pets[:fishes]
     new_pets[:dog(s)] << pets[:dogs]
     new_pets[:cat(s)] << pets[:cats]
-    new_pets.each do |type, pet|
-      pets_number << [type.to_s, "#{pet.size}"]
-    end
-    "I have #{pets_number[0][1]} #{pets_number[0][0]}, #{pets_number[1][1]} #{pets_number[1][0]}, and #{pets_number[2][1]} #{pets_number[2][0]}."
+    "I have #{pets[:fishes].size" fish, #{pets[:fishes].size dog, and #{pets_number[2][1]} #{pets_number[2][0]}."
   end
 
 end
