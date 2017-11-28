@@ -32,16 +32,16 @@ class Owner
   end
 
   def buy_fish(fish_name)
-    pets[:fishes] == empty? pets[:fishes] = Fish.new(fish_name) : pets[:fishes] << Fish.new(fish_name)
+    pets[:fishes].empty? pets[:fishes] = Fish.new(fish_name) : pets[:fishes] << Fish.new(fish_name)
 
   end
 
   def buy_cat(cat_name)
-    pets[:cats] == empty? pets[:cats] = Cat.new(cat_name) : pets[:cats] << Cat.new(cat_name)
+    pets[:cats].empty? pets[:cats] = Cat.new(cat_name) : pets[:cats] << Cat.new(cat_name)
   end
 
   def buy_dog(dog_name)
-    pets[:dogs] == empty? pets[:dogs] = Dog.new(dog_name) : pets[:dogs] << Dog.new(dog_name)
+    pets[:dogs].empty? pets[:dogs] = Dog.new(dog_name) : pets[:dogs] << Dog.new(dog_name)
   end
 
   def walk_dogs
