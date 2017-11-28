@@ -26,7 +26,7 @@ class Owner
     puts "I am a human."
   end
 
-  def buy_fish(name)
+  def buy_fish(fish_name)
     pets[:fishes] << Fish.new(name)
   end
 
