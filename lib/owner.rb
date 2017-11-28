@@ -57,10 +57,10 @@ class Owner
 
   def list_pets
     pets_number = []
-    pets.each do {|type, pet|}
+    pets.each do |type, pet|
       pets_number << [type.to_s.downcase, "#{pet.size}"]
     end
-
+    puts "I have #{pets_number[0][1]}"
   end
 
 end
