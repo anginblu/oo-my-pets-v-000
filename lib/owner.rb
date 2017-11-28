@@ -51,7 +51,7 @@ class Owner
   end
 
   def sell_pets
-
+    pets.each_values {|pet| 
   end
 
 
