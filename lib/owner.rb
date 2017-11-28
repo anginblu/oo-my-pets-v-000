@@ -26,4 +26,8 @@ class Owner
     puts "I am a human."
   end
 
+  def buy_fish
+    
+  end
+
 end
