@@ -56,7 +56,7 @@ class Owner
   end
 
   def list_pets
-    pets.collect {|type, pet| pet.mood == "nervous"}
+    pets.collect {|type, pet| }
   end
 
 end
