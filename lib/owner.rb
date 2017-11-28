@@ -61,11 +61,6 @@ class Owner
   end
 
   def list_pets
-    pets_number = []
-    new_pets = {fish: [], dog(s): [], cat(s): []}
-    new_pets[:fish] << pets[:fishes]
-    new_pets[:dog(s)] << pets[:dogs]
-    new_pets[:cat(s)] << pets[:cats]
     "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
   end
 
