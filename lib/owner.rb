@@ -60,7 +60,7 @@ class Owner
     pets.each do |type, pet|
       pets_number << [type.to_s.downcase, "#{pet.size}"]
     end
-    puts "I have #{pets_number[0][1]}"
+    puts "I have #{pets_number[0][1]} #{pets_number[0]}, #{pets_number[0][1]} #{pets_number[0]}, and #{pets_number[0][1]} #{pets_number[0]}."
   end
 
 end
