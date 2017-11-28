@@ -56,8 +56,8 @@ class Owner
   end
 
   def list_pets
-    types = pets.map
-    pets.collect {|type, pet| type = pet
+    pets_number = []
+    pets.each do {|type, pet| pets_number
 
   end
 
