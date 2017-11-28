@@ -14,7 +14,7 @@ class Owner
   def self.count
     @@owners.count
   end
-  
+
   def self.all
     @@owners
   end
@@ -24,7 +24,7 @@ class Owner
   end
 
   def species
-    raise NoMethodError
+    raise NoMethodError if 
   end
 
   def say_species
