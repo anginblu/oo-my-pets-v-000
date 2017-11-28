@@ -20,7 +20,7 @@ class Owner
   end
 
   def species
-    raise NoMethodError if self.species != "human"
+    raise NoMethodError
   end
 
   def say_species
