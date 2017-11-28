@@ -56,7 +56,8 @@ class Owner
   end
 
   def list_pets
-    pets.each_key do |type, pet|
+    type = []
+    pets.collect {|type, pet| type = pet
       
   end
 
