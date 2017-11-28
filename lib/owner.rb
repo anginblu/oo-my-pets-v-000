@@ -56,7 +56,7 @@ class Owner
   end
 
   def list_pets
-    pets.collect {|type, pet| }
+    pets.collect {|type, pet| "I have #{pet.size}"}
   end
 
 end
