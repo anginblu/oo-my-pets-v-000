@@ -18,7 +18,7 @@ class Owner
   end
 
   def species
-    raise NoMethodError if self.species ==
+    raise NoMethodError if self.species != "human"
   end
 
 end
