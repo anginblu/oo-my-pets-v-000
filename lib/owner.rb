@@ -37,11 +37,11 @@ class Owner
   end
 
   def buy_cat(cat_name)
-    pets[:cat] << Cat.new(cat_name)
+    pets[:fishes].size == 0? pets[:fishes] = Fish.new(fish_name) : pets[:fishes] << Fish.new(fish_name)
   end
 
-  def buy_cat(dog_name)
-    pets[:dog] << Dog.new(dog_name)
+  def buy_dog(dog_name)
+    pets[:dogs].size == 0? pets[:dogs] = Dog.new(dog_name) : pets[:dogs] << Dig.new(dog_name)
   end
 
   def walk_dogs
