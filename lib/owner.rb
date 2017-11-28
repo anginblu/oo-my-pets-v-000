@@ -56,7 +56,7 @@ class Owner
   end
 
   def list_pets
-    pets.each_key {|pet| pet.mood == "nervous"}
+    pets.each_key {|pet_type| pet.mood == "nervous"}
   end
 
 end
