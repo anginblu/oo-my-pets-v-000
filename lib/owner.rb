@@ -24,7 +24,7 @@ class Owner
   end
 
   def species
-    raise NoMethodError if 
+    raise NoMethodError if @species !=
   end
 
   def say_species
