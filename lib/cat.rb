@@ -7,6 +7,7 @@ class Cat
   end
 
   def name=(name)
-    raise NoMethodError if name
+    raise NoMethodError
+  end
 
 end
