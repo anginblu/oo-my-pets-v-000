@@ -57,7 +57,8 @@ class Owner
 
   def list_pets
     pets_number = []
-    pets.each do {|type, pet| pets_number
+    pets.each do {|type, pet|}
+      pets_number << pets_number
 
   end
 
