@@ -16,7 +16,7 @@ class Owner
   end
 
   def self.reset_all
-    @@all.clear
+    @@owners.clear
   end
 
   def species
