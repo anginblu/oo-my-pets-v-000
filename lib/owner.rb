@@ -18,7 +18,7 @@ class Owner
   end
 
   def species
-    
+    raise NoMethodError if 
   end
 
 end
