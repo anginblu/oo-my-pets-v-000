@@ -55,5 +55,8 @@ class Owner
     pets.values.clear
   end
 
+  def list_pets
+
+  end
 
 end
