@@ -56,9 +56,9 @@ class Owner
   end
 
   def list_pets
-    type = []
+    types = pets.map
     pets.collect {|type, pet| type = pet
-      
+
   end
 
 end
