@@ -32,15 +32,11 @@ class Owner
   end
 
   def buy_fish(fish_name)
-    if pets[:fishes].empty?
-      pets[:fishes] = Fish.new(fish_name)
-    else
       pets[:fishes] << Fish.new(fish_name)
-    end
   end
 
   def buy_cat(cat_name)
-    if pets[:cats].empty? 
+    if pets[:cats].empty?
       pets[:cats] = Cat.new(cat_name)
     else
       pets[:cats] << Cat.new(cat_name)
