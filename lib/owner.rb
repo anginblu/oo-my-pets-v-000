@@ -56,7 +56,7 @@ class Owner
   end
 
   def list_pets
-    pets.each_key {|type, pet| "I have #{pet.size} "}
+    pets.each_key {|type, pet| "I have #{pet.size} #{pet.class}"}
   end
 
 end
