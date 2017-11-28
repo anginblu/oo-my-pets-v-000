@@ -9,7 +9,8 @@ class Owner
   end
 
   def all
-    <<
+    @@all
+  end
 
 
 end
