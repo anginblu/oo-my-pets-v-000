@@ -23,8 +23,8 @@ class Owner
     @@owners.clear
   end
 
-  def species
-    raise NoMethodError if @species !=
+  def species=()
+    raise NoMethodError if @species != "human"
   end
 
   def say_species
