@@ -3,11 +3,11 @@ class Owner
   attr_accessor :name
 
   @@all = []
-  
+
   def initialize
     @@all << name
   end
-  
+
   def all
     <<
 
